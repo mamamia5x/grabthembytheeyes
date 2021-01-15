@@ -99,9 +99,9 @@ class Customercontrol {
 	
 	public static function addtomiddlequeue(prefers:Int):Void {
 		if (customerspeed == 1) {
-			customerdelay = 160;
+			customerdelay = 140;
 		}else if (customerspeed == 2) {
-			customerdelay = 128;
+			customerdelay = 100;
 		}else {
 			customerdelay = 64;
 		}
